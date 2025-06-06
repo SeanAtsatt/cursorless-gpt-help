@@ -6,7 +6,6 @@ This project is designed to:
 
 - Scrape a list of URLs
 - Chunk and embed their content using OpenAI's `text-embedding-3-small`
-- Store the data in a FAISS vector index
 - Answer natural language questions using GPT-4 and only that knowledge
 - Automatically rebuild the knowledge base on first launch if it's missing
 
@@ -20,7 +19,7 @@ For myself I put them in my `~/.bin/` directory:
 ```
 ~/.bin/
 ├── serveCursorlessHelp.py        # FastAPI server with embedded index builder
-├── cursorlessDocuments.txt       # List of URLs for the knowledge base (already included)
+├── cursorlessDocuments.txt       # List of URLs for the knowledge base (you can extend this)
 ├── askgptCursorless.sh           # CLI script to ask questions interactively
 ```
 
