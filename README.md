@@ -14,7 +14,8 @@ This project is designed to:
 
 ## 📁 Project Files
 
-All files should live in your `~/.bin/` directory:
+All files are assumed to live in the same directory.
+For myself I put them in my `~/.bin/` directory:
 
 ```
 ~/.bin/
