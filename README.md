@@ -89,8 +89,8 @@ To exit: press `Ctrl+D` or enter a blank line.
 ## ✅ Example Usage
 
 ```bash
-askgpt: how do I put the cursor in front of a word
-You can use the command "pre <TARGET>" to place the cursor before the given target. For example, if the word is "code", you would say "pre code".
+askgpt: how do I put the the cursor in front of a word
+You can use the "pre <TARGET>" command to put the cursor in front of a target word. For example, "pre blue air" would move the cursor to before the token containing the letter 'a' with a blue hat.
 ```
 
 Or in debug mode:
